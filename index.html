@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Grocery List</title>
+  </head>
+  <body>
+    <div class="container">
+    <h1>Grocery List</h1>
+    <p>Please fill out the form with your grocery list.</p>
+      <br>
+      <br>
+    <form class="form" action="index.html" method="post">
+      <label for="input1">Item #1</label>
+      <input text="text" id="input1">
+      <br>
+      <br>
+      <label for="input2">Item #2</label>
+      <input type="text" id="input2" value="">
+      <br>
+      <br>
+      <label for="input3">Item #3</label>
+      <input type="text" id="input3" value="">
+      <br>
+      <br>
+      <label for="input4">Item #4</label>
+      <input type="text" id="input4" value="">
+      <br>
+      <br>
+      <label for="input5">Item #5</label>
+      <input type="text" id="input5" value="">
+      <br>
+      <br>
+      <button type="submit" name="button" class="btn btn-danger">Submit</button>
+    </form>
+    <div id="summary">
+      <p>Here is a summarry of your items:</p>
+        <ul>
+          <li><span id="input1Answer"></span></li>
+          <li><span id="input2Answer"></span></li>
+          <li><span id="input3Answer"></span></li>
+          <li><span id="input4Answer"></span></li>
+          <li><span id="input5Answer"></span></li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+    </div>
+  </body>
+</html>
